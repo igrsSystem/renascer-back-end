@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 import User from '../../models/Users/Users';
 import { returnNotAuth } from '../../helpers/returnsNotAuth/index';
-import { secretAut } from '../../../config/auth';
+import  secretAut  from '../../../config/auth';
 
 
 class SessionController {
