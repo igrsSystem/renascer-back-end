@@ -17,7 +17,7 @@ class Membros {
 
         const pages = paginate(currentPage, count, rows, pageSize);
 
-        res.status(200).json({ pages, rows })
+        res.status(200).json({ ...pages, rows })
 
 
     }
